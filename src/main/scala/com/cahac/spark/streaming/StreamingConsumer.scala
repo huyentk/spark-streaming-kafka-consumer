@@ -47,8 +47,6 @@ object StreamingConsumer {
       rdd => {
         if(!rdd.isEmpty()){
           rdd.foreach(o => {
-            val value =
-            println(value)
             println(o)
 //            typeMapping.get(classOf[Behavior]).foreach { mType =>
 //              val actions: Task[Behavior] = for {
