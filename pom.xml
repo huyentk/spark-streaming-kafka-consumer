@@ -14,10 +14,6 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <!--<scala.version>2.11.7</scala.version>-->
-        <!--<spark.version>2.1.1</spark.version>-->
-        <!--<scala.built.version>2.11</scala.built.version>-->
-        <!--<kafka.version>0.10.2.0</kafka.version>-->
     </properties>
     <dependencies>
         <dependency>
@@ -47,11 +43,11 @@
             <version>0.10.2.0</version>
         </dependency>
 
-        <!--couchdb-->
+        <!--http-->
         <dependency>
-            <groupId>com.ibm</groupId>
-            <artifactId>couchdb-scala_2.11</artifactId>
-            <version>0.7.2</version>
+            <groupId>org.scalaj</groupId>
+            <artifactId>scalaj-http_2.11</artifactId>
+            <version>2.4.0</version>
         </dependency>
     </dependencies>
     <build>
